@@ -1,0 +1,66 @@
+.total {
+  flex: 2;
+  box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.767);
+  padding: 10px;
+  max-width: 300px;
+  margin-left: 2em;
+  display: flex;
+  flex-direction: column;
+  line-height: 10px;
+}
+.total .top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-self: stretch;
+}
+.total .top h1 {
+  font-size: 16px;
+  color: gray;
+}
+.total .center .total-chart {
+  width: 100px;
+  height: 100px;
+}
+.total .center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  line-height: 3px;
+}
+.total .total-sales {
+  color: gray;
+  font-size: 16px;
+  font-weight: 400;
+}
+.total .desc {
+  line-height: 20px;
+  color: gray;
+  font-size: 13px;
+}
+.total .bottom {
+  display: flex;
+  justify-content: space-around;
+  align-self: stretch;
+  align-items: center;
+}
+.total .bottom .item {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+.total .bottom .positive {
+  color: green;
+  font-weight: 500;
+}
+.total .bottom .negative {
+  color: red;
+}
+.total .bottom .item h4 {
+  color: gray;
+  font-size: 14px;
+  font-weight: 300;
+}

@@ -1,0 +1,7 @@
+.chart {
+  flex: 4;
+}
+.chart .title {
+  color: gray;
+  margin-left: 2.2em;
+}

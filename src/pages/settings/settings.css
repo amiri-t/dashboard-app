@@ -1,0 +1,33 @@
+.settings {
+  display: flex;
+}
+.settings-container {
+  flex: 6;
+}
+.settings-container h2.title {
+  color: gray;
+  text-align: center;
+}
+.settings-container .title {
+  text-align: left;
+  color: gray;
+  margin-left: 3em;
+  margin-top: 1rem;
+}
+.settings-container .sett1 {
+  padding: 0 50px;
+  display: flex;
+  gap: 10px;
+}
+.settings-container .sett1 .col {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: rgba(128, 128, 128, 0.144);
+  height: 50px;
+  justify-content: space-evenly;
+  border-radius: 10px;
+}
+.settings-container .sett1 .col span {
+  margin-bottom: 24px;
+}

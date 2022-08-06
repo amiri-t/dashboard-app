@@ -1,0 +1,116 @@
+.pricing {
+  display: flex;
+}
+.pricing-container .title {
+  font-size: 20px;
+  text-align: center;
+  color: gray;
+}
+.pricing-container {
+  flex: 6;
+}
+.pricing-container .offer .price {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pricing-container .offer .price .left h3 {
+  font-size: 37px;
+}
+.pricing-container .offer .price .right {
+  line-height: 0px;
+}
+.pricing-container .offers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+  margin: 0 7em;
+  padding: 10px 0;
+  font-family: "Poppins";
+}
+.pricing-container .offer {
+  width: 100%;
+  padding: 10px 10px;
+  text-align: center;
+  position: relative;
+  border: 2px solid blue;
+  line-height: 15px;
+  border-radius: 10px;
+}
+.pricing-container .offer .top .line {
+  height: 5px;
+  width: 100%;
+  background: linear-gradient(
+    to right,
+    rgb(101, 42, 211) 20%,
+    rgb(28, 236, 184)
+  );
+  border-radius: 10px;
+  border: none;
+}
+.pricing-container .offer .pop-line {
+  background-color: white;
+  height: 5px;
+  border-radius: 10px;
+  border: none;
+}
+
+.pricing-container .popular {
+  background: linear-gradient(
+    to right,
+    rgb(101, 42, 211) 20%,
+    rgb(28, 236, 184)
+  );
+  color: white;
+  border: none;
+}
+.pricing-container .popular .pop {
+  text-align: left;
+  color: white;
+  text-decoration: underline;
+  width: 40%;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 3px;
+}
+.pricing-container .popular .features {
+  line-height: 27px;
+}
+.pricing-container .basic .features,
+.pricing-container .premium .features {
+  background: linear-gradient(
+    to right,
+    rgb(101, 42, 211) 20%,
+    rgb(1, 160, 120)
+  );
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.pricing-container .basic,
+.pricing-container .premium {
+  line-height: 20px;
+}
+.pricing-container .basic button,
+.pricing-container .premium button {
+  color: white;
+  border: none;
+  background: linear-gradient(
+    to right,
+    rgb(101, 42, 211) 20%,
+    rgb(11, 216, 165)
+  );
+  padding: 13px 23px;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.pricing-container .popular button {
+  background: none;
+  border: 2px solid white;
+  padding: 13px 23px;
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+}

@@ -1,0 +1,71 @@
+.navbar {
+  display: flex;
+  width: 100%;
+  height: 70px;
+  justify-content: space-around;
+  box-shadow: 1px 7px 8px 2px rgb(214, 211, 211);
+  align-items: center;
+}
+.navbar .left {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.navbar .left .icon {
+  position: absolute;
+  left: 4%;
+  color: white;
+}
+.navbar .left input {
+  width: 300px;
+  padding: 11px;
+  border: none;
+  background: var(--main-color);
+  border-radius: 20px;
+  color: white;
+  font-size: 18px;
+  outline: none;
+  padding-left: 3.5em;
+}
+.navbar .left input::placeholder {
+  color: white;
+}
+.navbar .right {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.navbar .nav-link {
+  align-items: center;
+  display: flex;
+  color: var(--main-color);
+  font-weight: bold;
+  padding: 7px;
+}
+.navbar .nav-link:hover {
+  background-color: var(--light-main-color);
+  padding: 7px;
+  border-radius: 10px;
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+}
+.navbar .icon {
+  font-size: 27px;
+  color: var(--main-color);
+}
+.navbar .buttons {
+  display: flex;
+  gap: 5px;
+}
+.navbar button {
+  padding: 5px 10px;
+  border: 2px solid var(--main-color);
+  border-radius: 20px;
+  background: none;
+  color: var(--main-color);
+  cursor: pointer;
+}
+.navbar button:hover {
+  background-color: var(--lighter-main-color);
+  transition: 0.2s;
+}

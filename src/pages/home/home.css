@@ -1,0 +1,10 @@
+.home {
+  display: flex;
+  overflow-x: hidden;
+}
+.home-container {
+  flex: 6;
+}
+.charts {
+  display: flex;
+}

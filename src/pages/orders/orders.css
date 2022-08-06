@@ -1,0 +1,98 @@
+.orders {
+  display: flex;
+  box-sizing: border-box;
+}
+.orders-container {
+  flex: 6;
+}
+table,
+tr,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: center;
+  align-content: center;
+}
+th {
+  background-color: #646fd44f;
+  color: black;
+}
+.tr2 th {
+  background: white;
+  padding: 10px;
+  color: rgba(128, 128, 128, 0.555);
+  font-size: 16px;
+}
+table {
+  width: 95%;
+  margin: 25px;
+}
+.orders-container .table-title h3 {
+  font-size: 20px;
+  color: gray;
+  margin-left: 2rem;
+}
+.orders-container .left {
+  display: flex;
+  margin: 1em 2rem;
+  align-items: center;
+}
+.orders-container .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.orders-container .header button {
+  padding: 10px 27px;
+  border: none;
+  outline: none;
+  background: #646fd4c4;
+  color: white;
+  font-family: "Nunito";
+  border-radius: 20px;
+  cursor: pointer;
+}
+.orders-container .header h1 {
+  font-size: 24px;
+  color: gray;
+}
+.orders-container .header img {
+  width: 100px;
+}
+.orders-container .header h3 {
+  font-size: 17px;
+  color: gray;
+  margin-left: 2em;
+}
+.orders-container .payment {
+  display: flex;
+  width: 95%;
+  justify-content: center;
+  margin-left: 1.6rem;
+  gap: 2rem;
+}
+.orders-container .card img {
+  width: 100px;
+  margin: auto;
+}
+.orders-container .card {
+  margin-top: 2rem;
+  border: 1px solid gray;
+  -webkit-box-shadow: 0px 0px 18px 5px rgba(0, 0, 0, 0.295);
+  box-shadow: 0px 0px 28px 5px rgba(0, 0, 0, 0.377);
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  flex-wrap: wrap;
+  border-radius: 20px;
+}
+.orders-container .payment .card h1 {
+  font-size: 20px;
+  color: gray;
+}

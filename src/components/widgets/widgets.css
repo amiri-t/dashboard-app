@@ -1,0 +1,78 @@
+.widgets {
+  display: flex;
+  justify-content: space-around;
+  margin: 1em;
+  gap: 0 1rem;
+  height: 130px;
+}
+.widgets .widget {
+  background-color: #c7d5f356;
+  line-height: 10px;
+  width: 100%;
+  border-radius: 20px;
+  box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.993);
+}
+.widgets .widget .top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1em;
+}
+.widgets .widget .bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1em;
+}
+.widgets .widget .center {
+  display: flex;
+  margin-left: 1em;
+}
+.widgets .widget .top p {
+  color: rgb(124, 124, 124);
+  font-weight: bold;
+}
+.widgets .widget .top span {
+  display: flex;
+  align-items: center;
+}
+.widgets .widget .top span {
+  color: green;
+  font-weight: bold;
+}
+.widgets .widget .bottom p {
+  text-decoration: underline;
+  color: rgb(134, 134, 134);
+  cursor: pointer;
+}
+.widgets .widget .bottom p:hover {
+  color: black;
+}
+.widgets .widget1 .bottom span {
+  color: red;
+  background-color: rgba(255, 0, 0, 0.322);
+  padding: 8px;
+  font-size: 20px;
+  border-radius: 14px;
+}
+.widgets .widget2 .bottom span {
+  color: goldenrod;
+  background-color: rgba(218, 165, 32, 0.301);
+  padding: 8px;
+  font-size: 20px;
+  border-radius: 14px;
+}
+.widgets .widget3 .bottom span {
+  color: green;
+  background-color: rgba(0, 128, 0, 0.322);
+  padding: 8px;
+  font-size: 20px;
+  border-radius: 14px;
+}
+.widgets .widget4 .bottom span {
+  color: purple;
+  background-color: rgba(128, 0, 128, 0.26);
+  padding: 8px;
+  font-size: 20px;
+  border-radius: 14px;
+}

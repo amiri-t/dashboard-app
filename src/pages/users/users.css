@@ -1,0 +1,8 @@
+.users {
+  display: flex;
+  overflow-x: hidden;
+  width: 100%;
+}
+.user-container {
+  flex: 6;
+}
